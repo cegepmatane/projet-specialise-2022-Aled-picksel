@@ -25,4 +25,5 @@ luminosité et si celle-ci baisse jusqu’à un certain seuil il deviendra incon
 déplacera de façon aléatoire.
 
 Technologies utilisées cerveau du robot : carte Arduino
+
 Technologies utilisées application mobile : Arduino Bluetooth Controller
