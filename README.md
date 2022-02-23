@@ -18,7 +18,7 @@ Lien vers la fiche POC et choix technologique
 Description du projet:
 
 L'objectif de ce projet est de pouvoir piloter un robot à distance (en Bluetooth) depuis
-une application mobile (keyes BT car), le robot pourra aussi afficher des informations
+une application mobile (Arduino Bluetooth Controller), le robot pourra aussi afficher des informations
 grâce à un écran LCD placé sur lui que l'utilisateur aura rentré depuis l’application
 mobile, avec un capteur de luminosité placé sur lui, il détectera les changements de
 luminosité et si celle-ci baisse jusqu’à un certain seuil il deviendra incontrôlable et se
