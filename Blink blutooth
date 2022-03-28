@@ -1,0 +1,24 @@
+// définition de la broche 13 de la carte en tant que variable
+const int led_rouge = 13;
+String message;
+ 
+// fonction d'initialisation de la carte
+void setup()
+{
+   pinMode(led_rouge, OUTPUT);   // initialisation de la broche 13 comme étant une sortie
+   Serial.begin(9600);    // initialisation de la liaison série
+}
+ 
+void loop()
+{
+  if (Serial.available() > 0 )   //Si un message a été reçu  faire ceci 
+  { 
+    message=Serial.readString();  // lire le message     
+      if(message=="1"){   
+         digitalWrite(led_rouge, HIGH);   // allume la LED
+      }
+      if(message=="0"){
+         digitalWrite(led_rouge, LOW);   // éteint la LED
+      }
+  }
+}

@@ -1,0 +1,16 @@
+// appuyer sur le bouton rest pour lancer la fonction.
+void setup() {
+  // initialise le digital pin 13 comme un output.
+  pinMode(13, OUTPUT);
+}
+
+// repete la fontion de maniere infini
+void loop() {
+
+  
+  digitalWrite(13, HIGH);   // allume la led 
+  delay(1000);                       // attend 1 seconde
+  digitalWrite(13, LOW);    // etain la led
+  delay(1000);                       // attend 1 seconde
+                 
+}
