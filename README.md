@@ -3,7 +3,7 @@ projet-specialise-2022-Aled-picksel created by GitHub Classroom
 
 Informations essentielles Nom du projet :
 
-Le MacRobot Repo github : lien Aspect pricipal : Arduino
+Le MacRobot Repo github : lien Aspect principal : Arduino
 
 Documentation du projet
 
@@ -11,9 +11,9 @@ Lien vers la fiche de lancement "kickoff";
 
 Lien vers la grille de comparaison
 
-Lien vers la fiche de recherche successive
+Lien vers la fiche de recherches successives
 
-Lien vers la fiche POC et choix technologique
+Lien vers la fiche POC et choix technologiques
 
 Description du projet:
 
